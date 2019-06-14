@@ -1,0 +1,43 @@
+.container {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+
+	/* 
+		设置容器中元素在交叉轴上的对齐方式
+		stretch：（默认）当元素的高度没有设置，则元素的高度会拉伸至容器高度一致
+		flex-start: 在交叉轴上向起点位置（向上/向左）对齐
+		flex-end: 在交叉轴上向结束位置（向下/向右）对齐
+		center: 居中对齐
+		baseline: 保证元素中的文字在同一条基准线（保证每个文字都在同一条线上）
+	 */
+	-webkit-box-align: stretch;
+	-webkit-align-items: stretch;
+	    -ms-flex-align: stretch;
+	        align-items: stretch;
+	
+	height: 800rpx;
+	background-color: #FFC0CB;
+}
+.txt {
+	font-size: 20px;
+	width: 150rpx;
+	/* height: 150upx; */
+	height: 150rpx;
+}
+.red {
+	background-color: #FF0000;
+}
+.green {
+	background-color: #008000;
+}
+.blue {
+	background-color: blue;
+}
+

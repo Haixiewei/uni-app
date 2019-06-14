@@ -1,0 +1,1 @@
+<view><block wx:for="{{studentArray}}" wx:for-item="stu" wx:for-index="__i0__" wx:key="id"><view><checkbox value="{{stu.name}}"></checkbox>{{stu.name+''}}</view></block><button type="primary" data-event-opts="{{[['tap',[['addStu',['$event']]]]]}}" bindtap="__e">新增学生</button></view>

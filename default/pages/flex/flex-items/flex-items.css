@@ -1,0 +1,44 @@
+.container {
+	display: flex;
+	flex-direction: row;
+	height: 600upx;
+	background-color: #FFA500;
+}
+
+.txt {
+	font-size: 20px;
+	width: 150upx;
+	height: 150upx;
+}
+
+/*  flex元素的属性
+	order: 用于设置flex容器内部的每个元素的排列顺序，默认是0
+		   排序规则，由小到大
+	flex-grow: 用于设置元素的放大比例，默认为0
+			   如果为0，则不放大
+	flex-shrink: 用于定义属性的缩放比例，默认为1
+				 设置为0的时候，不进行缩放
+	flex-basis：设置元素固定或自动空间的占比 我这默认150upx
+	align-self：重写align-items父属性
+ */
+.red {
+	background-color: #FF0000;
+	/* order: 0; */
+	/* flex-grow: 2; */
+	/* flex-shrink: 0; */
+	flex-basis: 450upx;
+}
+
+.green {
+	background-color: #008000;
+	/* order: 2; */
+	/* flex-grow: 1; */
+	/* flex-shrink: 0; */
+}
+
+.blue {
+	background-color: blue;
+	/* order: 1; */
+	/* flex-grow: 1; */
+	/* flex-shrink: 0; */
+}

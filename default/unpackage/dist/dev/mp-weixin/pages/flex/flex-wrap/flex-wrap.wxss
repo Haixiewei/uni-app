@@ -1,0 +1,47 @@
+.container {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	
+	/**
+		nowrap: 不换行
+		wrap: 换行
+		wrap-reverse: 逆向换行
+	 */
+	-webkit-flex-wrap: wrap-reverse;
+	    -ms-flex-wrap: wrap-reverse;
+	        flex-wrap: wrap-reverse;
+	
+	/* height: 600upx; */
+	background-color: gray;
+}
+.txt {
+	font-size: 20px;
+	width: 150rpx;
+	height: 150rpx;
+}
+.red {
+	background-color: #FF0000;
+}
+.green {
+	background-color: #008000;
+}
+.blue {
+	background-color: blue;
+}
+.orange {
+	background-color: orange;
+}
+.pink {
+	background-color: pink;
+}
+.yellow {
+	background-color: yellow;
+}
+

@@ -1,0 +1,44 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	
+	/**
+		nowrap: 不换行
+		wrap: 换行
+		wrap-reverse: 逆向换行
+	 */
+	flex-wrap: wrap-reverse;
+	
+	/* height: 600upx; */
+	background-color: gray;
+}
+
+.txt {
+	font-size: 20px;
+	width: 150upx;
+	height: 150upx;
+}
+
+.red {
+	background-color: #FF0000;
+}
+
+.green {
+	background-color: #008000;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.orange {
+	background-color: orange;
+}
+
+.pink {
+	background-color: pink;
+}
+
+.yellow {
+	background-color: yellow;
+}
